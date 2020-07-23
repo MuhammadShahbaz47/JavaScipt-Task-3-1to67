@@ -1337,3 +1337,178 @@
 // document.write(calcArea(2))
 
 
+//CHAPTER 38 TO 44
+
+//TASK 1
+
+// function myfunction(){
+//     var res=Math.pow(3,3)
+//     document.write(res)
+// }
+// myfunction()
+
+
+//TASK 2
+
+// function check_leapyear(){
+//     var year;
+//     year = document.getElementById("year").value;
+//     if( (0 == year % 4) && (0 != year % 100) || (0 == year % 400) )
+//     {
+//         alert(year+" is a leap year");  
+//     }
+//     else
+//     {
+//         alert(year+" is not a leap year");  
+//     }
+// }
+
+//TASK 3
+
+// function ValueOfS(){
+//     var a=+prompt("value of A")
+//     var b=+prompt("value of B")
+//     var c=+prompt("value of C")
+//     var s=(a+b+c)/2;
+//     var area=Math.sqrt(s*(s-a)*(s-b)*(s-c));
+//     return area;
+// }
+// result=ValueOfS();
+// document.write(result)
+
+//TASK 4
+
+
+//TASK 5
+
+// var text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at feugiat dui. Mauris lectus ante, convallis eget cursus id, blandit ac arcu. Duis lacus mi, venenatis in imperdiet in, luctus sit amet augue. Sed eleifend nunc sit amet rhoncus accumsan."
+// var index=text.indexOf("Vivamus")
+// var first=text.slice(0,index)
+// var replace="'replaced text'";
+// var last=text.slice(index+7)
+// document.write(first+replace+last)
+
+//TASK 6
+
+// function removeVowels(str) {
+//     return str.replace(/[aeiou]/gi, '');
+//   }
+// document.write("Main sentence: "+"consectetur adipiscing elit"+"<br>"+"After removing vowels: ")
+// document.write(removeVowels("consectetur adipiscing elit"))
+
+//TASK 7
+
+// function findOccurrences() {
+//     var str = "Pleases read this application and give me gratuity";
+//     var count = 0;
+//     let haveSeenVowel = false;
+  
+//     for (const letter of str.toLowerCase()) {
+//       switch (letter) {
+//         case 'a':
+//         case 'e':
+//         case 'i':
+//         case 'o':
+//         case 'u':
+//           {
+//             if (haveSeenVowel) {
+//               count++;
+//               haveSeenVowel = false;
+//             } else {
+//               haveSeenVowel = true;
+//             }
+//             break;
+//           }
+//         default:
+//           haveSeenVowel = false
+//       }
+//     }
+  
+//     return count
+//   }
+  
+//   document.write(findOccurrences());
+
+//TASK 8
+
+// function meter(){
+//     var metercon=document.getElementById("distance").value;
+//     alert (metercon+ " km is equal to "+metercon*1000+" meters")
+// }
+// function feet(){
+//     var feetcon=document.getElementById("distance").value;
+//     alert (feetcon+" km is equal to "+feetcon*3281 + " feets")
+// }
+// function inches(){
+//     var inchescon=document.getElementById("distance").value;
+//     alert (inchescon+" km is equal to "+inchescon*39370+ " inches")
+// }
+// function cm(){
+//     var cmcon=document.getElementById("distance").value;
+//     alert (cmcon+" km is equal to "+cmcon*100000+ " centimers")
+// }
+
+//TASK 9
+
+// function pay(){
+//     var timeworked=+prompt("Time Worked in Hours")
+//     var overtime;
+//     if (timeworked > 40){
+//         overtime=timeworked-40;
+//         overpay=overtime*12
+//         document.write("Your Overtime Pay is "+overpay +"Rs")
+//     }
+//     else{
+//         document.write("You have not worked overtime")
+//     }
+// }
+
+// pay();
+
+//TASK 10
+
+// function currency(){
+
+//     var amount=+prompt("Amount to withdraw")
+
+//     var hundreds=Math.floor(amount/100);
+//     var fifties=Math.floor((amount % 100) /50);
+//     var tens=(((amount % 100) % 50) / 10);
+
+//     document.write("You will have "+hundreds+" hundreds notes "+fifties +" fifty notes "+tens+" ten notes")
+// }
+// currency();
+
+
+// CHAPTER 43 TO 48
+
+//TASK 3
+
+// function removeDummy() {
+//     var elem = document.getElementById('dummy');
+//     elem.parentNode.removeChild(elem);
+//   }
+
+//TASK 4
+
+// function cimg(){
+//     var img=document.getElementById("i")
+//     img.src="nokia.png"
+// }
+// function img(){
+//     var img=document.getElementById("i")
+//     img.src="xiaomi.jpg"
+// }
+
+//TASK 5
+
+var a=0;
+function add(){
+    a +=1;
+    var addn=document.getElementById("a").innerHTML=a;
+}
+
+function decrease(){
+    a +=-1;
+    var addn=document.getElementById("a").innerHTML=a;
+}
