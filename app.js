@@ -1502,13 +1502,128 @@
 
 //TASK 5
 
-var a=0;
-function add(){
-    a +=1;
-    var addn=document.getElementById("a").innerHTML=a;
-}
+// var a=0;
+// function add(){
+//     a +=1;
+//     var addn=document.getElementById("a").innerHTML=a;
+// }
 
-function decrease(){
-    a +=-1;
-    var addn=document.getElementById("a").innerHTML=a;
-}
+// function decrease(){
+//     a +=-1;
+//     var addn=document.getElementById("a").innerHTML=a;
+// }
+
+// CHAPTER 49 TO 52
+
+// TASK 1
+
+// function print(){
+// var a=document.getElementById("FN").value;
+// var b=document.getElementById("LN").value;
+// var c=document.getElementById("EM").value;
+// var d=document.getElementById("PS").value;
+// var e=document.getElementById("CPS").value;
+// document.write("DETAILS:<br><br>"+"FIRST NAME: "+a+"<br><br>"+"LAST NAME: "+b+"<br><br>"+"E-MAIL: "+c+"<br><br>"+"PASSWORD: "+d)
+// }
+
+// TASK 2
+
+// function readmore(){
+// var text="Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text. and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)"
+// var para=document.getElementById('pera')
+// para.innerHTML = text
+// }
+
+// TASK 3
+
+//   function addRow() {
+//     const div = document.createElement('div');
+  
+//     div.className = 'row';
+  
+//     div.innerHTML = `
+//       <input size=1px type="text" name="name" value="" />
+//       <input size=6px type="text" name="value" value="" />
+//       <input size=2px type="text" name="value" value="" />
+//       <input type="button" value="Delete" onclick="removeRow(this)" />
+//     `;
+  
+//     document.getElementById('content').appendChild(div);
+//     document.getElementById("content").disabled = true;
+//   }
+  
+//   function removeRow(input) {
+//     document.getElementById('content').removeChild(input.parentNode);
+//   }
+
+//CHAPTER 52 TO 57
+
+//TASK 1
+
+// var modal = document.getElementById("myModal");
+
+// var btn = document.getElementById("myBtn");
+
+// var span = document.getElementsByClassName("close")[0];
+
+// var closebtn=document.getElementById("closemodal")
+
+// btn.onclick = function() {
+//   modal.style.display = "block";
+// }
+
+// span.onclick = function() {
+//   modal.style.display = "none";
+// }
+
+// window.onclick = function(event) {
+//   if (event.target == modal) {
+//     modal.style.display = "none";
+//   }
+// }
+
+//TASK 2
+
+// var images = ["xiaomi.jpg", "nokia.png", "3.png"];
+
+// TASK 3
+
+// function functieArray() {
+//     var gallery = document.getElementById("Gallery");
+//     for (i = 0; i < imgArray.length; i++) {
+//         gallery.appendChild(imgArray[i]);
+//     }
+// };
+// var imgArray = new Array();
+// imgArray[0] = new Image();
+// imgArray[0].src = 'https://image.shutterstock.com/image-photo/bright-spring-view-cameo-island-260nw-1048185397.jpg';
+
+// imgArray[1] = new Image();
+// imgArray[1].src = 'https://image.shutterstock.com/image-photo/fantastic-spring-view-cameo-island-260nw-789653536.jpg';
+
+// imgArray[2] = new Image();
+// imgArray[2].src = 'https://image.shutterstock.com/image-photo/bright-spring-view-cameo-island-260nw-640652728.jpg';
+
+// imgArray[3] = new Image();
+// imgArray[3].src = 'https://image.shutterstock.com/image-photo/bright-spring-view-cameo-island-260nw-640652728.jpg';
+
+// imgArray[4] = new Image();
+// imgArray[4].src = 'https://image.shutterstock.com/image-photo/cameo-island-famous-beach-zakynthos-260nw-636294611.jpg';
+
+// TASK 4
+
+// function size(){
+//         document.getElementById('Gallery').style.width="400px";
+//         document.getElementById('Gallery').style.height="400px";
+// }
+// function size2(){
+//     document.getElementById('Gallery2').style.width="400px";
+//     document.getElementById('Gallery2').style.height="400px";
+// }
+
+// TASK 5
+
+// var modal = document.getElementById('modal');
+// modal.classList.add('modal-open')
+// modal.classList.remove('modal-close');
+// document.getElementById("modal").style.display = "block";

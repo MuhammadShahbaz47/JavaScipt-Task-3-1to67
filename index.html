@@ -7,6 +7,78 @@
 </head>
 <body>
 
+<style>
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #a0a0a0;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #a0a0a0;
+  color: white;
+}
+</style>
+
 <!-- CHAPTER 38 TO 42 -->
 
 <!-- TASK 2 -->
@@ -61,9 +133,78 @@
 
 <!-- TASK 5 -->
 
-<p><a id="a">0</a></p>
+<!-- <p><a id="a">0</a></p>
 <button onclick="add()">Increase</button>
-<button onclick="decrease()">Decrease</button>
+<button onclick="decrease()">Decrease</button> -->
+
+<!-- CHAPTER 49 TO 52 -->
+
+<!-- TASK 1 -->
+
+<!-- <p>FIRST NAME</p>
+<input type="text" id="FN"><br>
+<P>LAST NAME</P>
+<input type="text" id="LN"><br>
+<P>EMAIL</P>
+<input type="email" id="EM"><br>
+<P>PASSWORD</P>
+<input type="password" id="PS"><br>
+<p>CONFIRM PASSWORD</P>
+<input type="password" id="CPS"><br><br>
+<button onclick="print()">SIGNUP</button> -->
+
+<!-- TASK 2 -->
+
+<!-- <p id="pera">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text. <a href="javascript:void(0)" onclick="readmore()">Read more...</a></p> -->
+
+<!-- TASK 3 -->
+
+  <!-- <input type="button" value="Add" onclick="addRow()">
+  <div>Index&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class</div>
+  <div id="content">
+  
+  </div> -->
+
+  <!-- CHAPTER 52 TO 57 -->
+
+<!-- TASK 1 -->
+
+
+  <!-- <h2>Click Below to open modal</h2>
+
+  <button id="myBtn">Open Modal</button>
+
+  <div id="myModal" class="modal">
+  
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>This is modal header</h2>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the Modal Body</p>
+        <p>Some other text...</p>
+      </div>
+      <div class="modal-footer">
+        <h3>This is modal footer </h3>
+      </div>
+    </div>
+  
+  </div> -->
+
+<!-- TASK 3-->
+
+<!-- <button onclick='functieArray()' class='galleryButons'>Show Images</button>
+<div id='Gallery'></div> -->
+
+<!-- TASK 4 -->
+
+<!-- <img onclick="size()" id="Gallery" src="https://image.shutterstock.com/image-photo/bright-spring-view-cameo-island-260nw-1048185397.jpg" alt="">
+<img onclick="size2()" id="Gallery2" src="https://image.shutterstock.com/image-photo/cameo-island-famous-beach-zakynthos-260nw-636294611.jpg" alt=""> -->
+
+<!-- TASK 5 -->
+
+<!-- <img id="modal" src="https://image.shutterstock.com/image-photo/cameo-island-famous-beach-zakynthos-260nw-636294611.jpg" alt=""> -->
 
     <script src="app.js"></script>
 </body>
