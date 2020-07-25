@@ -1627,3 +1627,58 @@
 // modal.classList.add('modal-open')
 // modal.classList.remove('modal-close');
 // document.getElementById("modal").style.display = "block";
+
+
+// CHAPTER 58 TO 67
+
+//TASK 1
+
+// var a= document.getElementById("main-content")
+// console.log(a.childNodes) 
+
+// OR
+
+// var a=document.getElementById("main-content").children
+// console.log(a)
+
+// var render=document.getElementsByClassName("render").innerHTML;
+// console.log(render)
+
+// document.write(document.getElementsByClassName("render")[0].innerHTML);
+// document.write(document.getElementsByClassName("render")[1].innerHTML);
+// document.write(document.getElementsByClassName("render")[2].innerHTML);
+// document.write(document.getElementsByClassName("render")[3].innerHTML);
+// document.write(document.getElementsByClassName("render")[4].innerHTML);
+
+// document.getElementById('first-name').value="Muhammad Shahbaz"
+// document.getElementById('last-name').value="Abdul Aziz"
+// document.getElementById('email').value="azizterai32@gmail.com"
+
+//TASK 2
+
+// var a=document.getElementById("form-content").nodeType;
+// console.log(a)
+
+// var b=document.getElementById("last-name").nodeType;
+// console.log(b)
+
+// var c=document.getElementById("form-content").childNodes;
+// console.log(c)
+
+// var d=document.getElementById("main-content").firstChild;
+// console.log(d)
+
+// var e=document.getElementById("main-content").lastChild;
+// console.log(e)
+
+var f=document.getElementById("lastName").nextSibling;
+console.log(f)
+
+var g=document.getElementById("lastName").previousSibling;
+console.log(g)
+
+var h=document.getElementById("email").parentNode;
+console.log(h)
+
+var i=document.getElementById("email").nodeType;
+console.log(i)
